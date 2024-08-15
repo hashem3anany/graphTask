@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/graphTask/static/css/main.db62923b.css",
+    "main.js": "/graphTask/static/js/main.fc33eccf.js",
+    "static/js/453.2eb54c46.chunk.js": "/graphTask/static/js/453.2eb54c46.chunk.js",
+    "index.html": "/graphTask/index.html",
+    "main.db62923b.css.map": "/graphTask/static/css/main.db62923b.css.map",
+    "main.fc33eccf.js.map": "/graphTask/static/js/main.fc33eccf.js.map",
+    "453.2eb54c46.chunk.js.map": "/graphTask/static/js/453.2eb54c46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db62923b.css",
+    "static/js/main.fc33eccf.js"
+  ]
+}
