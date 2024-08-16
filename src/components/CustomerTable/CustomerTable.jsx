@@ -50,6 +50,7 @@ export default function CustomerTable() {
   return (
     <>
       <div className="container text-start">
+        <p classsName="text-center text-danger">if you clicked in the customer row you will see the customer graph</p>
         <label htmlFor="nameInputSearch">Search by name</label>
         <input
           type="text"
