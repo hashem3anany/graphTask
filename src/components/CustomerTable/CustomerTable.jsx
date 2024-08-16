@@ -10,11 +10,10 @@ export default function CustomerTable() {
 
   useEffect(() => {
     let getData = async () => {
-        let customersResponse = await axios.get("http://localhost:3001/customers");
-        setCustomersData(customersResponse.data);
-        let transactionsResponse = await axios.get("http://localhost:3001/transactions");
-        setTransactionData(transactionsResponse.data);
-        setSearchedData(transactionsResponse.data);
+        let Response = await axios.get("https://hashem3anany.github.io/hostapi/data.json");
+        setCustomersData(Response.data.customers);
+        setTransactionData(Response.data.transactions);
+        setSearchedData(Response.data.transactions);
     };
     getData();
   }, []);
