@@ -1,8 +1,8 @@
-## about this app 
+# about this app 
 this app retrieves the customer and transaction
 data from a provided API endpoint and displays it in a user-friendly format
 
-# you can run this project in github pages 
+### you can run this project in github pages 
 
 ## it contains
 1-A table that displays the list of customers along with their transaction data.
